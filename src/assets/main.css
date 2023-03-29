@@ -1,0 +1,75 @@
+@import './base.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#app {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 68px 245px;
+  gap: 5px;
+  width: 1372px;
+  height: 900px;
+  background: rgba(28, 28, 28, 0.5);
+  backdrop-filter: blur(55px);
+  border-radius: 20px;
+  z-index: 100;
+}
+
+#figure-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  position: absolute;
+}
+
+
+#figure1 {
+  right: -23px;
+  position: absolute;
+  top: 213px;
+}
+
+#figure2 {
+  position: absolute;
+  top: 0px;
+  right: 1117px;
+}
+
+#figure3 {
+  position: absolute;
+  left: -3px;
+  bottom: -29px;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
