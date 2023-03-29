@@ -34,13 +34,6 @@ npm run build
 npm run test:unit:dev # or `npm run test:unit` for headless testing
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
